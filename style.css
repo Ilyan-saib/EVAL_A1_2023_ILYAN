@@ -150,7 +150,10 @@ height: 40px;
   
 }
 
-
+.plats{
+  text-align: center;
+  transform: translate(0,300px);
+  }
 
 
 
