@@ -1,0 +1,107 @@
+
+@font-face {
+  font-family: 'righteous';
+  src: url('/assets/fonts/Righteous-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url('/assets/fonts/Lato-Regular.ttf');
+}
+
+
+/*
+Color pallette:
+
+#2d3142 : black
+
+#4f5d75  : dark grey
+
+#bfc0c04  : grey
+
+#ffffff   : white
+
+#ef8354   : salmon 
+
+#eaebeb   : light gray
+
+
+
+*/
+
+
+body{
+  margin: 0;
+  width: 100vw;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  
+}
+
+
+header{
+  width: 100vw;
+  height: 100px;
+ background-color:#4f5d75 ;
+ border-bottom: solid 5px #bfc0c0;
+}
+
+.header__title_container__left{
+width: 50vw;
+  height: 100px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__title{
+  
+font-family: "righteous";
+font-size: 24px;
+color: #ffffff;
+
+}
+
+
+.header__title::before{
+  content: '"';
+color: #ef8354;
+font-size: 30px;
+}
+
+
+.header__title::after{
+    content: '"';
+  color: #ef8354;
+  font-size: 30px;
+}
+
+
+
+
+
+.header__nav_container__right{
+  width: 50vw;
+  height: 100px;
+  float: right;
+}
+
+.header__nav__ul{
+  list-style: none;
+
+}
+
+.li_element{
+  
+  font-family: righteous;
+  font-size: 14px;
+  margin: 8px;
+}
+
+.nav__li_element__a{
+  color: #ffffff;
+}
