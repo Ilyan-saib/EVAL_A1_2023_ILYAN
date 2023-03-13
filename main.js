@@ -55,3 +55,30 @@ text: "lorem ipsum dolor sit , amet consectetur adipiscing elit. Voluptatem quos
        
       }]
 }
+
+function CreateElmnt(ifo) {
+  
+ 
+  
+  for (let i = 1; i < ifo.length; i++) {
+    let sect = document.createElement('div')
+  section.classList.add('plats__section')
+  let image = document.createElement('img')
+  img.src = ifo[i][0].imgSrc
+let hn = document.getElementsByClassName('header__title')
+
+
+ // je sais pas pourquoi mais ca marche pas les éléments ne veulent pas se créer
+
+  }
+  
+  
+}
+
+
+for (const item in carte ) {
+ CreateElmnt(carte)
+}
+
+
+ 
