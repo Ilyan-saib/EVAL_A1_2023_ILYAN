@@ -1,13 +1,14 @@
+@font-face {
+  font-family: 'lato';
+  src: url('/assets/fonts/Lato-Regular.ttf');
+}
 
 @font-face {
   font-family: 'righteous';
   src: url('/assets/fonts/Righteous-Regular.ttf');
 }
 
-@font-face {
-  font-family: 'lato';
-  src: url('/assets/fonts/Lato-Regular.ttf');
-}
+
 
 
 /*
@@ -17,7 +18,7 @@ Color pallette:
 
 #4f5d75  : dark grey
 
-#bfc0c04  : grey
+#bfc0c0  : grey
 
 #ffffff   : white
 
@@ -105,3 +106,51 @@ font-size: 30px;
 .nav__li_element__a{
   color: #ffffff;
 }
+
+.abonnements{
+text-align: center;
+transform: translate(0,150px);
+}
+
+.hn{
+  font-family: 'lato';
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.main__table{
+  border: 1px solid black;
+  
+}
+
+.main__table__tr_grey{
+  background-color: #4f5d75;
+text-align: center;
+color: #ffffff;
+height: 40px;
+}
+
+.main__table__tr{
+ height: 40px;
+}
+
+
+
+
+.main__table__td_grey{
+  border: 1px solid black;
+  font-family: "lato";
+}
+
+
+.main__table__td_white{
+  border: 1px solid black;
+  font-family: "lato";
+  font-size: 15px;
+  
+}
+
+
+
+
+
