@@ -56,29 +56,21 @@ text: "lorem ipsum dolor sit , amet consectetur adipiscing elit. Voluptatem quos
       }]
 }
 
-function CreateElmnt(ifo) {
-  
- 
-  
-  for (let i = 1; i < ifo.length; i++) {
-    let sect = document.createElement('div')
-  section.classList.add('plats__section')
-  let image = document.createElement('img')
-  img.src = ifo[i][0].imgSrc
-let hn = document.getElementsByClassName('header__title')
+
+// for (const item in carte) {
 
 
- // je sais pas pourquoi mais ca marche pas les éléments ne veulent pas se créer
+// console.log(carte.length);
 
-  }
-  
-  
-}
+// let sect_img = document.getElementById(`img${1}`)
+// let sect_title = document.getElementById(`title${1}`)
+// let sect_desc = document.getElementById(`desc${1}`)
+
+// console.log();
+
+// sect_img.src = carte[1][0].imgSrc
+// sect_title.innerText = carte[1][0].title
+// sect_desc.innerText = carte[1][0].text
 
 
-for (const item in carte ) {
- CreateElmnt(carte)
-}
-
-
- 
+// }

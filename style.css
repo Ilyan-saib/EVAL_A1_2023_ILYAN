@@ -39,7 +39,7 @@ body{
 
 a{
   text-decoration: none;
-  
+  color: #ef8354;
 }
 
 
@@ -157,3 +157,38 @@ height: 40px;
 
 
 
+footer{
+  background-color: #4f5d75;
+  width: 100vw;
+  height: 500px;
+  transform: translate(0,150px);
+  text-align: center;
+}
+
+.footer_formulaire_title_24{
+  font-size: 24px;
+  color: white;
+  font-family: 'lato';
+}
+
+.footer_formulaire_subtxt{
+  font-size: 14px;
+  color: white;
+  font-family: 'lato';
+}
+
+.footer_formulaire_title_20{
+  font-size: 20px;
+  color: white;
+  font-family: 'lato';
+  
+}
+
+.form__input{
+  border-radius: 6px;
+}
+
+.form__label{
+  color: white;
+  font-family: 'lato';
+}
