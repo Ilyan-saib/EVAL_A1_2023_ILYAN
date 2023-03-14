@@ -56,7 +56,3 @@ text: "lorem ipsum dolor sit , amet consectetur adipiscing elit. Voluptatem quos
       }
 }]
 
-
-for (const item of carte) {
-  console.log(carte);
-}
