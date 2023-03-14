@@ -77,7 +77,23 @@
 
 <p class="footer_formulaire_title_20">INFORMATIONS DE CONTACT</p>
 
+<fieldset>
+  <legend id="legend_radio" class="footer_formulaire_subtxt">Quel est votre age ? :</legend>
 
+    <input type="radio" >
+    <label class="footer_formulaire_subtxt" >12-14</label>
+  
+
+
+    <input type="radio">
+    <label class="footer_formulaire_subtxt">15-17</label>
+
+
+
+    <input type="radio">
+    <label class="footer_formulaire_subtxt" >18-19</label>
+ 
+</fieldset>
 
 <div class="form">
   <label class="form__label" >nom: </label>
@@ -91,9 +107,8 @@
 
 <p class="footer_formulaire_title_20">VOTRE JEU PRÉFÉRÉ</p>
 
-
-
-<label class="form__label" >Choisissez votre console:</label>
+<div class="form">
+<label class="form__label" id="console_label" >Choisissez votre console:</label>
 
 <select class="form__input" >
 
@@ -108,9 +123,9 @@
 
 </select>
 
+</div>
 
-
-
+<div class="form">
 
 <label class="form__label" >Choisissez un jeu:</label>
 
@@ -125,26 +140,28 @@
  
 </select>
 
-<div class="footer_container">
+</div>
+
+
 
 <p class="footer_formulaire_title_20" id="form_msg">VOTRE MESSAGE</p>
-
+<div class="form">
 
 <input class="form__text__input" type="text">
 
 
-
+</div>
 
 
 
 <label class="label__pasword" for="password"></label>
 <input id="password" class="form__input" type="password">
 
-
+<div class="form">
 <!-- je n'arrive pas à corriger ce bug le label de mon input 'password' ce met automatiquement en haut à droite à coté de mon chanps de text -->
 <button id="button_send">Envoyer votre message</button>
-
 </div>
+
 </footer>
 
 

@@ -185,6 +185,8 @@
     font-family: 'lato';
     
   }
+
+ 
   
   .form__input{
     border-radius: 6px;
@@ -202,23 +204,13 @@
   
   }
   
-  .footer_container{
-    width: 50%;
-  transform: translate(25%,0);
   
-  }
   
-  #form_msg{
-    transform: translate(25%);
-  }
-  
-  #password{
-    transform: translate(25%);
-  }
+
   
   #button_send{
     border-radius: 10px;
-    transform: translate(12vw,10px);
+   
     background-color: #2d3142;
     width: 150px;
     color: #ffffff;
@@ -228,10 +220,36 @@
 
 
 @media (min-width: 680px) {
-  .header__nav_container__right{
-  
-    width: 50vw;
-    height: 100px;
-    float: right;
+ 
+
+
+  .header__nav__ul{
+    list-style: none;
+    display: flex;
+    transform: translate(0,20px);
   }
+
+
+
+
+.footer_container{
+  width: 400px;
+  padding: auto;
+  margin-right: auto;
+}
+
+.game_container{
+
+  width: 400px;
+  padding: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
 }
